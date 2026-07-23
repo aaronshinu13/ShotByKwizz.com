@@ -1,11 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:wght@400;700&display=swap');
+
+
+html{
+  scroll-behaviour: smooth;
+}
+
 body {
   background-color: #000;
   color: #fff;
-  font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 2rem;
 }
-h1 {
+
+.hero {
+  position: relative;
+}
+
+.firstline {
+  text-align: left;
   color: #ff3c00;
+  font-family: 'Jaro', sans-serif; 
+  font-weight: 800; 
+  text-transform: uppercase; 
+  letter-spacing: 0.02em;
+}
+
+.secondline {
+  text-align: left;
+  color: #ff3c00;
+  font-family: 'Jaro', sans-serif; 
+  font-weight: 800; 
+  text-transform: uppercase; 
+  letter-spacing: 0.02em;
+}
+
+.thirdline {
+  text-align: left;
+  color: #dcbdbb;
+  font-family: 'Jaro', sans-serif;
+  font-weight: 800;
   text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.fourthline {
+  text-align: left;
+  color:#dcbdbb;
+  font-family: 'Jaro', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.hero-desc p{
+  text-align:left;
+  color: #dbcdcc;
+  font-family: 'Jaro', sans-serif;
+  font-weight: 400;
+  max-width:80%
 }
